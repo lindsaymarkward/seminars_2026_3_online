@@ -15,10 +15,13 @@ while is not until
 """
 import random
 
+# Get boundaries
 low = int(input("enter low number: "))
 high = int(input("enter high number: "))
 while high <= low:
+    # Print error message
     print("error")
     high = int(input("enter high number: "))
+# Print random smileys
 print(":)" * random.randint(low, high))
 
